@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background:rgb(210, 202, 202);
+    color: rgb(210, 202, 202);
+}
+  
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+  }
+  
+  .form-container {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 30px;
+    text-align: center;
+    background-color:#146c6c;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(21, 85, 119, 0);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(45, 6, 6, 0.947);
+    background-color: #157f97;
+  }
+  
+  input[type="text"] {
+    background-color:rgba(40, 240, 200, 0.39);
+    color:#6005d0;
+  }
+  
+  textarea {
+    background-color:rgba(40, 240, 200, 0.39);
+    color: black;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(22, 159, 97);
+    color: rgb(181, 89, 89);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4d5053;
+  }
+  
+  .modal-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal {
+    background-color: #c6e2ee;
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .modal__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .modal__btn:hover {
+    color: #903f3f;
+  }
+  
+ .note-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(19, 171, 148);
+  } 
+   
+  .note-container h3 {
+    color:white;
+  }
+  
+  .note {
+    border: 1px solid rgb(113, 2, 2);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .note__title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  .note__body {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.4;
+  }
